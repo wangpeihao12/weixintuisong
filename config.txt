@@ -1,0 +1,54 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wxce752e9a49daec74",
+# 公众号appSecret
+"app_secret": "ebb37ed823677483e047f5d93006bf9a",
+# 模板消息id天气
+"template_id1": "8Mxb88AY-A6imHPFfqWU7_bntJETButbgbs32vjpQE4",
+# 模板消息id课程表纪念日
+"template_id2": "aJWupIgslvo1jQ4tZs3LsHs2VSJy9UfsD6fbW4yr9yQ",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"] -----------------------------------还要修改
+#所有用户,我，宝贝，呆
+"user": ['o0RI26sxTWQRUioP_sJYC2Fwi_3o','o0RI26gONkAdsnKuCChd7cke3NsY','o0RI26ofXo7rz2iwvr3mjpfvTYf0'],
+#程序调试用户,只有我
+#"user": ['o0RI26sxTWQRUioP_sJYC2Fwi_3o'],
+
+# 信息配置
+# 和风天气apikey
+"weather_key": "0e13c93a25c74622a3449ce19b21b6ac",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "洛阳",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "豪哥", "birthday": "r1998-07-03"},
+# 生日2
+"birthday2": {"name": "俊俊", "birthday": "r1997-02-16"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2019-06-18",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "",
+# 金句英文
+"note_en": "Love forever",
+
+#课表配置文件
+#当学期第一周周一的日期
+"first_day_team": "2022-09-05",
+#课程数量有几个,有几个在后面添加几节课
+"class_num": 15,
+#课程的具体内容，如      课程名       任课老师， 上课教室  第几节课），     上课的开始的周数，             结束的周数，         周几上课，
+"class1": {"name":"研究生论文写作指导  ,杨佩佩，2015室,第3-4节",    "start_week":2,          "over_week":9,      "xingqi":1,    },
+"class2": {"name":"材料现代研究方法理论,杨佩佩，2015室,第5-8节",    "start_week":2,          "over_week":9,      "xingqi":1,   },
+"class3": {"name":"自然辩证法              ，2017室,第1-4节",   "start_week":10,          "over_week":13,     "xingqi":2,   },
+"class4": {"name":"模具CAD/CAE/CAM  ,董斌斌, 网 课 ,第5-6节",    "start_week":6,         "over_week":13,      "xingqi":2,    },
+"class5": {"name":"材料加工新技术     ,周 兵 ，2015室,第3-6节",    "start_week":2,         "over_week":9,      "xingqi":3,    },
+"class6": {"name":"材料现代研究方法实验,周 兵 ，2015室,第7-10节",   "start_week":2,         "over_week":9,      "xingqi":3,    },
+"class7": {"name":"塑料成型加工数值模拟,曹 伟 ，2015室,第5-8节",    "start_week":10,        "over_week":17,      "xingqi":3,    },
+"class8": {"name":"高分子流变学测试方法,曹 伟 ，2015室,第1-4节",    "start_week":10,        "over_week":17,      "xingqi":4,    },
+"class9": {"name":"高分子物理专论    ,孙红玲，2015室,第3-6节",    "start_week":2,          "over_week":9,      "xingqi":4,    },
+"class10": {"name":"模具CAD/CAE/CAM ,董斌斌, 网 课 ,第5-6节",    "start_week":6,         "over_week":13,      "xingqi":4,    },
+"class11": {"name":"专题讲座         ,李国杰，2015室,第7-10节",    "start_week":2,        "over_week":9,       "xingqi":4,    },
+"class12": {"name":"材料的结构与性能   ,王亚龙，2015室,第1-4节",    "start_week":2,        "over_week":9,       "xingqi":5,    },
+"class13": {"name":"数值分析                ,2017室,第5-8节",    "start_week":2,        "over_week":9,        "xingqi":5,    },
+"class14": {"name":"中国特色社会主义理论与实践研究2017室,第1-4节",    "start_week":2,        "over_week":9,       "xingqi":6,    },
+"class15": {"name":"英语（专业学位）   ,任 悦 ，2015室,第5-8节",    "start_week":2,        "over_week":9,       "xingqi":6,   }
+}
